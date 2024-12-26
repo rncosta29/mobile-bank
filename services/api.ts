@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'http://192.168.15.4:8765/API-BANK/api/v1', // Substitua pelo URL da sua API
+  baseURL: 'http://192.168.15.15:8765/API-BANK/api/v1', // Substitua pelo URL da sua API
 });
 
 export const getAllBills = async () => {
